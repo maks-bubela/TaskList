@@ -1,0 +1,84 @@
+# .NET / ASP.NET Core build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Dd]ebug/
+[Rr]elease/
+*.binlog
+
+# IDE / editor local files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Tests / coverage
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+BenchmarkDotNet.Artifacts/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/appsettings.*.secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+
+# Local MongoDB storage / dumps (if bind-mounted into project)
+/mongo-data/
+/mongodb-data/
+/mongo-dump/
+
+# Local Docker Compose overrides
+compose.override.local.yml
+compose.override.local.yaml
+docker-compose.override.local.yml
+docker-compose.override.local.yaml
+
+# Logs / temporary files
+[Ll]ogs/
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# NuGet packages created locally
+*.nupkg
+*.snupkg
+
+# IMPORTANT: Track project rules and Codex configuration:
+# AGENTS.md, .agents/skills/, .codex/config.toml, .codex/agents/, docs/
+
+
+# ==========================================
+# Local AI development tools (Codex)
+# ==========================================
+
+# Codex / AI development files
+/.codex/
+/.agents/
+/AGENTS.md
+/prompts/
+/docs/
+/README.md
