@@ -10,4 +10,8 @@
     <ProjectReference Include="../TaskList.Application/TaskList.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.13.0" />
+  </ItemGroup>
+
 </Project>
